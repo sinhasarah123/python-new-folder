@@ -6,7 +6,7 @@ def minelement(a, size):
 def maxlement(a, size):
     temp =a[0]
     for i in range (1,size):
-        temp=min(temp,a[i])
+        temp=max(temp,a[i])
     return temp
 a=[1,2,3,4,5]
 size = len(a)
