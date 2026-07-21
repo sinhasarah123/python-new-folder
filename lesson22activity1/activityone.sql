@@ -6,4 +6,5 @@ INSERT INTO supplier(SNO,SNAME,STATUS,CITY) VALUES('S3','Blake',30,'Paris');
 INSERT INTO supplier(SNO,SNAME,STATUS,CITY) VALUES('S4','Adams',20,'Athens');  
 INSERT INTO supplier(SNO,SNAME,STATUS,CITY) VALUES('S5','Claire',30,'Colarado');  
 INSERT INTO supplier(SNO,SNAME,STATUS,CITY) VALUES('S6','Bethany',30,'India');  
-SELECT * FROM supplier;
+SELECT * FROM supplier
+WHERE CITY='Paris';
